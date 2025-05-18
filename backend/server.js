@@ -8,7 +8,7 @@ import taskRoutes from './routes/taskRoutes.js';
 dotenv.config();
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://task-manager-iota-seven.vercel.app/',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
